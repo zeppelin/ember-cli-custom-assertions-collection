@@ -172,7 +172,7 @@ If you find it not working due to something of the above missing, try installing
   
   ```js
   const html = "<div> <div>Foo</div> <div>Bar</div> </div>";
-  assert.datesEqual( $(element).text(), "FooBar" ) // pass
+  assert.stringsEqualNoWhitespace( $(element).text(), "FooBar" ) // pass
   ```
   
   
